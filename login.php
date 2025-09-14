@@ -31,7 +31,7 @@ if(isset($_POST['login'])){
                 header("Location: dashboard.php");
                 exit;
             } else {
-                $error = "❌ Invalid password!";
+                $error = "❌ Invalid password try again!";
             }
         } else {
             $error = "❌ User not found!";
