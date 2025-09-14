@@ -2,7 +2,7 @@
 $host = "localhost";// your MySQL host
 $user = "root";   // your MySQL username
 $pass = "";       // your MySQL password
-$dbname = "unifinder";// your database name
+$dbname = "unifinder";// your databaseName
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
